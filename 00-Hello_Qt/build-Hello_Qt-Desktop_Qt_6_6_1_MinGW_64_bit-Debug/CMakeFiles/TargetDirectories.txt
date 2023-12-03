@@ -1,0 +1,9 @@
+D:/Study/C++/Qt/00-Hello_Qt/build-Hello_Qt-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/Hello_Qt.dir
+D:/Study/C++/Qt/00-Hello_Qt/build-Hello_Qt-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/Study/C++/Qt/00-Hello_Qt/build-Hello_Qt-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/Study/C++/Qt/00-Hello_Qt/build-Hello_Qt-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+D:/Study/C++/Qt/00-Hello_Qt/build-Hello_Qt-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/install.dir
+D:/Study/C++/Qt/00-Hello_Qt/build-Hello_Qt-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+D:/Study/C++/Qt/00-Hello_Qt/build-Hello_Qt-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+D:/Study/C++/Qt/00-Hello_Qt/build-Hello_Qt-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/Hello_Qt_autogen_timestamp_deps.dir
+D:/Study/C++/Qt/00-Hello_Qt/build-Hello_Qt-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/Hello_Qt_autogen.dir
