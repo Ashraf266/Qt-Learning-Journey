@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-e38cbcdbbf6db8098176.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Qobj_2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Qobj_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Qobj_2-Debug-0346b1482d0cc332fd0b.json",
+					"name" : "Qobj_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Qobj_2_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Qobj_2_autogen-Debug-cbd074e873f4f30ce314.json",
+					"name" : "Qobj_2_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Qobj_2_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Qobj_2_autogen_timestamp_deps-Debug-e2d8604af355d4894b89.json",
+					"name" : "Qobj_2_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Study/C++/Qt/02-QObject_2/build-Qobj_2-Desktop_Qt_6_6_1_MinGW_64_bit-Debug",
+		"source" : "D:/Study/C++/Qt/02-QObject_2/Qobj_2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
