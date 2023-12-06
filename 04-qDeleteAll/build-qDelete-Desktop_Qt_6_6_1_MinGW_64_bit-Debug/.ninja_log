@@ -1,0 +1,27 @@
+# ninja log v5
+1	451	7235968118194322	qDelete_autogen/timestamp	89b377809dba8a93
+1	451	7235968118194322	qDelete_autogen/mocs_compilation.cpp	89b377809dba8a93
+1	451	7235968118194322	D:/Study/C++/Qt/04-qDeleteAll/build-qDelete-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/qDelete_autogen/timestamp	89b377809dba8a93
+1	451	7235968118194322	D:/Study/C++/Qt/04-qDeleteAll/build-qDelete-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/qDelete_autogen/mocs_compilation.cpp	89b377809dba8a93
+454	1909	7235968133170441	CMakeFiles/qDelete.dir/qDelete_autogen/mocs_compilation.cpp.obj	add2d9ce5b7d2749
+459	1924	7235968133315719	CMakeFiles/qDelete.dir/test.cpp.obj	1ce50929caa8da4c
+451	2034	7235968134421435	CMakeFiles/qDelete.dir/main.cpp.obj	4b7f4a82d8638231
+2035	2188	7235968135916893	qDelete.exe	d1ba5be74268d707
+4	112	7235970908349763	qDelete_autogen/timestamp	89b377809dba8a93
+4	112	7235970908349763	qDelete_autogen/mocs_compilation.cpp	89b377809dba8a93
+4	112	7235970908349763	D:/Study/C++/Qt/04-qDeleteAll/build-qDelete-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/qDelete_autogen/timestamp	89b377809dba8a93
+4	112	7235970908349763	D:/Study/C++/Qt/04-qDeleteAll/build-qDelete-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/qDelete_autogen/mocs_compilation.cpp	89b377809dba8a93
+118	1701	7235970924233089	CMakeFiles/qDelete.dir/main.cpp.obj	4b7f4a82d8638231
+1701	1829	7235970925478186	qDelete.exe	d1ba5be74268d707
+11	120	7235971926255254	qDelete_autogen/timestamp	89b377809dba8a93
+11	120	7235971926255254	qDelete_autogen/mocs_compilation.cpp	89b377809dba8a93
+11	120	7235971926255254	D:/Study/C++/Qt/04-qDeleteAll/build-qDelete-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/qDelete_autogen/timestamp	89b377809dba8a93
+11	120	7235971926255254	D:/Study/C++/Qt/04-qDeleteAll/build-qDelete-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/qDelete_autogen/mocs_compilation.cpp	89b377809dba8a93
+126	1605	7235971941112479	CMakeFiles/qDelete.dir/main.cpp.obj	4b7f4a82d8638231
+1606	1746	7235971942377794	qDelete.exe	d1ba5be74268d707
+11	117	7235973596669202	qDelete_autogen/timestamp	89b377809dba8a93
+11	117	7235973596669202	qDelete_autogen/mocs_compilation.cpp	89b377809dba8a93
+11	117	7235973596669202	D:/Study/C++/Qt/04-qDeleteAll/build-qDelete-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/qDelete_autogen/timestamp	89b377809dba8a93
+11	117	7235973596669202	D:/Study/C++/Qt/04-qDeleteAll/build-qDelete-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/qDelete_autogen/mocs_compilation.cpp	89b377809dba8a93
+123	1630	7235973611781246	CMakeFiles/qDelete.dir/main.cpp.obj	4b7f4a82d8638231
+1631	1759	7235973613064632	qDelete.exe	d1ba5be74268d707
