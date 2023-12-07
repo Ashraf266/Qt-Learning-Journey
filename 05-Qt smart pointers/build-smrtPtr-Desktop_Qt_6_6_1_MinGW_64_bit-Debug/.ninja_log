@@ -1,0 +1,15 @@
+# ninja log v5
+1	537	7236771478201821	smrtPtr_autogen/timestamp	412db23272cb694
+1	537	7236771478201821	smrtPtr_autogen/mocs_compilation.cpp	412db23272cb694
+1	537	7236771478201821	D:/Study/C++/Qt/05-Qt smart pointers/build-smrtPtr-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/smrtPtr_autogen/timestamp	412db23272cb694
+1	537	7236771478201821	D:/Study/C++/Qt/05-Qt smart pointers/build-smrtPtr-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/smrtPtr_autogen/mocs_compilation.cpp	412db23272cb694
+541	2084	7236771494113938	CMakeFiles/smrtPtr.dir/main.cpp.obj	2286bf5634351c2e
+546	2098	7236771494244519	CMakeFiles/smrtPtr.dir/test.cpp.obj	f6dca98554d5e50c
+538	2195	7236771495203757	CMakeFiles/smrtPtr.dir/smrtPtr_autogen/mocs_compilation.cpp.obj	14e43786a3c209fc
+2196	2325	7236771496467526	smrtPtr.exe	6b07b443c7443a0e
+11	131	7236777908442562	smrtPtr_autogen/timestamp	412db23272cb694
+11	131	7236777908442562	smrtPtr_autogen/mocs_compilation.cpp	412db23272cb694
+11	131	7236777908442562	D:/Study/C++/Qt/05-Qt smart pointers/build-smrtPtr-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/smrtPtr_autogen/timestamp	412db23272cb694
+11	131	7236777908442562	D:/Study/C++/Qt/05-Qt smart pointers/build-smrtPtr-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/smrtPtr_autogen/mocs_compilation.cpp	412db23272cb694
+136	1619	7236777923328241	CMakeFiles/smrtPtr.dir/main.cpp.obj	2286bf5634351c2e
+1620	1758	7236777924662379	smrtPtr.exe	6b07b443c7443a0e
