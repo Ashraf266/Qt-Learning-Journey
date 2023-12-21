@@ -70,7 +70,55 @@ int main(int argc, char *argv[])
     status(data);
 
 // Reading the data
+    int first = data.indexOf('*');   //return -1 if not found
+    int last = data.lastIndexOf('*');
+    qInfo() << "First *:" << first << "Last *:" << last;
 
+    if(first > -1 && last > -1)
+    {
+        qInfo() << "Mid" << data.mid(first, last-first+1);
+    }
+
+    data.clear();
+    data.append("Mohamed Ashraf");
+
+    for(int i=0; i < data.length(); i++)
+    {
+        qInfo() << "At" << data.at(i) << "or" << data[i]; // .at() does range checking
+    }
+
+    foreach(char c, data)
+    {
+        qInfo() << "Char" << c;
+    }
+
+    foreach(auto item, data.split(' '))
+    {
+        qInfo() << "Item" << item;
+    }
+
+
+// Encoding the data
+    qInfo() << "Normal" << data;
+    qInfo() << "Repeated" << data.repeated(3);
+
+    data.append(QByteArray("\t\r\n"));
+    data.insert(0,QByteArray("      \t\t\t"));
+    qInfo() << "Normal" << data;
+    qInfo() << "Trimmed" << data.trimmed(); //Trims white spaces
+    data = data.trimmed();
+
+    // Convert to & from Hex encoding
+    QByteArray hex = data.toHex();
+    qInfo() << "Hex" << hex;
+    QByteArray from_hex = QByteArray::fromHex(hex);
+    qInfo() << "From Hex" << from_hex;
+
+
+    QByteArray base64 = data.toBase64();
+    qInfo() << "Base64" << base64;
+    QByteArray from_base64 = QByteArray::fromBase64(base64);
+    qInfo() << "From Base64" << from_base64;
 
 
     return a.exec();
