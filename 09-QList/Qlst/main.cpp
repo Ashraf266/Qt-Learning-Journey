@@ -104,11 +104,101 @@ void modifyNumbers()
 
     qInfo() << "length" << list.length();
 
+    //list.replace(3,54444444);
+
 
     for(int i=0; i<list.length(); i++)
     {
         qInfo() << i << "=" << list.at(i);
     }
+
+}
+
+
+void test_search()
+{
+    QList<int> list = getNumbers();
+
+    int item = 999;
+    list.insert(0,item);
+    list.insert(3,item);
+    list.append(item);
+
+    for(int i=0; i<list.length(); i++)
+    {
+        qInfo() << i << "=" << list.at(i);
+    }
+
+    //First
+    int fpos = list.indexOf(item);
+
+    qInfo() << "First" << fpos;
+
+    //Last
+    int lpos = list.lastIndexOf(item);
+    qInfo() << "Last" << lpos;
+
+
+    //All
+    int pos = list.indexOf(item);
+    do
+    {
+        qInfo() << "At" << pos;
+        //start searching from pos+1 ---- .indexOf( what we are searching for, the index to start searching from);
+        pos = list.indexOf(item,pos+1);
+    }while(pos > -1);
+
+
+    qInfo() << "Contains" << list.contains(item);
+
+    //Get a slice
+    // --------------------.sliced(pos, num of items);
+    QList<int> items = list.sliced(1,4);
+
+    qInfo() << list;
+    qInfo() << items;
+
+
+}
+
+
+//--- Memory Considrations ---
+void test_deleteall()
+{
+    QList<Test *> list;
+    for(int i = 0; i<5; i++)
+    {
+        list.append(new Test());// Dangerous no parent if we used "new Test()"
+    }
+
+    qInfo() << "Cleaning up";
+    qDeleteAll(list);//it doesn't remove the dangling pointers from the list but it deletes the Qobjects itself
+
+    qInfo() << "before clearing" << list.length();//dangling pointers
+
+    list.clear();
+
+    qInfo() << "After clearing" << list.length();
+
+    //this is not the easiest way of dealing with it we can use smart pointers to make it easier
+}
+
+void test_smart()
+{
+    QList<QSharedPointer<Test>> list;
+
+    for(int i=0; i<5; i++)
+    {
+        QSharedPointer<Test> item(new Test); //Auto memory mangement
+        list.append(item);
+    }
+
+    qInfo() << "Remove First";
+    list.removeFirst();
+
+    qInfo() << "Clearing";
+    list.clear();
+    qInfo() << list.length();
 
 }
 
@@ -123,6 +213,18 @@ int main(int argc, char *argv[])
 
     // --- Modifying existing data
     modifyNumbers();
+
+
+    qInfo() << "-------------------------";
+
+
+    // --- Searching
+    test_search();
+
+    //--- memory considrations
+    test_deleteall();
+
+    test_smart();
 
     return a.exec();
 }
